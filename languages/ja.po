@@ -1,0 +1,184 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Minstagram 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-10 16:25+0900\n"
+"PO-Revision-Date: 2015-11-10 16:27+0900\n"
+"Last-Translator: Hiroshi Sawai <info@info-town.jp>\n"
+"Language-Team: Hiroshi Sawai <info@info-town.jp>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+
+#: settings/class.minstagram-settings-controller.php:19
+#: settings/class.minstagram-settings-controller.php:114
+#: tags/0.0.2/settings/class.minstagram-settings-controller.php:19
+#: tags/0.0.2/settings/class.minstagram-settings-controller.php:114
+#: trunk/settings/class.minstagram-settings-controller.php:19
+#: trunk/settings/class.minstagram-settings-controller.php:114
+msgid "You do not have sufficient permissions to access this page"
+msgstr "本ページにアクセスする権限がありません。"
+
+#: settings/minstagram-settings-view.php:4
+msgid "1. To get ACCESS TOKEN, please input CLIENT ID and CLIENT SECRET"
+msgstr ""
+"1. ACCESS TOKENを取得するにはCLIENT IDとCLIENT SECRETを入力してください。"
+
+#: settings/minstagram-settings-view.php:8
+msgid ""
+"2. Please set following URL to REDIRECT URL at Instagram Manage Clients page."
+msgstr ""
+"2. InstagramのManage Clientsページで設定するREDIRECT URLへ下記URLを設定してく"
+"ださい。"
+
+#: settings/minstagram-settings-view.php:28
+#: tags/0.0.2/settings/minstagram-settings-view.php:14
+#: trunk/settings/minstagram-settings-view.php:14
+msgid "CLIENT ID is required"
+msgstr "CLIENT IDは必須です。"
+
+#: settings/minstagram-settings-view.php:39
+#: tags/0.0.2/settings/minstagram-settings-view.php:25
+#: trunk/settings/minstagram-settings-view.php:25
+msgid "If you will ACCESS TOKEN then CLIENT SECRET is required"
+msgstr "ACCESS TOKENの取得はCLIENT IDとCLIENT SECRETが必要です。"
+
+#: settings/minstagram-settings-view.php:58
+#: tags/0.0.2/settings/minstagram-settings-view.php:40
+#: trunk/settings/minstagram-settings-view.php:40
+msgid "GET ACCESS TOKEN"
+msgstr "ACCESS TOKENを取得"
+
+#: settings/minstagram-settings-view.php:61
+#: tags/0.0.2/settings/minstagram-settings-view.php:43
+#: trunk/settings/minstagram-settings-view.php:43
+msgid "Please save CLIENT ID and CLIENT SECRET to get Access Token."
+msgstr ""
+"ACCESS TOKENを取得するためにはCLIENT IDとCLIENT SECRETを保存してください。"
+
+#: settings/minstagram-settings-view.php:66
+#: tags/0.0.2/settings/minstagram-settings-view.php:48
+#: trunk/settings/minstagram-settings-view.php:48
+msgid "Save"
+msgstr "保存"
+
+#: settings/minstagram-settings-view.php:70
+#: tags/0.0.2/settings/minstagram-settings-view.php:52
+#: trunk/settings/minstagram-settings-view.php:52
+msgid "User search requires access token."
+msgstr "ユーザー検索はACCESS TOKENが必要です。"
+
+#: settings/minstagram-settings-view.php:86
+#: tags/0.0.2/settings/minstagram-settings-view.php:68
+#: trunk/settings/minstagram-settings-view.php:68
+msgid "Search USER ID"
+msgstr "USER IDを検索"
+
+#: tags/0.0.2/widget/class.minstagram-tags-widget.php:15
+#: trunk/widget/class.minstagram-tags-widget.php:15
+#: widget/class.minstagram-tags-widget.php:15
+msgid "MinStagram Tags Wieget"
+msgstr "Minstagram Tags Widget"
+
+#: tags/0.0.2/widget/class.minstagram-tags-widget.php:17
+#: trunk/widget/class.minstagram-tags-widget.php:17
+#: widget/class.minstagram-tags-widget.php:17
+msgid "Shows Instagram images specified in the hash tag."
+msgstr "タグ(ハッシュタグ)で指定した画像を表示します。"
+
+#: tags/0.0.2/widget/class.minstagram-users-widget.php:15
+#: trunk/widget/class.minstagram-users-widget.php:15
+#: widget/class.minstagram-users-widget.php:15
+msgid "Minstagram Users Widget"
+msgstr "Minstagram Users Widget"
+
+#: tags/0.0.2/widget/class.minstagram-users-widget.php:17
+#: trunk/widget/class.minstagram-users-widget.php:17
+#: widget/class.minstagram-users-widget.php:17
+msgid "Shows Instagram images specified in users id."
+msgstr "user idで指定した画像を表示します。"
+
+#: tags/0.0.2/widget/class.minstagram-widget-model.php:35
+#: trunk/widget/class.minstagram-widget-model.php:35
+#: widget/class.minstagram-widget-model.php:35
+msgid "CLIENT ID is not founded. CLIENT ID is required."
+msgstr "CLIENT IDは見つかりませんでした。CLIENT IDは必須です。"
+
+#: tags/0.0.2/widget/class.minstagram-widget-model.php:40
+#: trunk/widget/class.minstagram-widget-model.php:40
+#: widget/class.minstagram-widget-model.php:40
+msgid "user id is not founded or Invalid. user id is required"
+msgstr "user idは見つかれいませんでした。user idは必須です。"
+
+#: tags/0.0.2/widget/class.minstagram-widget-model.php:45
+#: trunk/widget/class.minstagram-widget-model.php:45
+#: widget/class.minstagram-widget-model.php:45
+msgid "tag is not founded or Invalid. tag is required"
+msgstr "タグ(ハッシュタグ)が見つからないか正しくありません。タグは必須です。"
+
+#: tags/0.0.2/widget/class.minstagram-widget-model.php:50
+#: trunk/widget/class.minstagram-widget-model.php:50
+#: widget/class.minstagram-widget-model.php:50
+msgid "count is not founded. count is required."
+msgstr "countは設定されていません。countは必須です。"
+
+#: tags/0.0.2/widget/minstagram-widget-form-view.php:3
+#: trunk/widget/minstagram-widget-form-view.php:3
+#: widget/minstagram-widget-form-view.php:3
+msgid "Set CLIENT ID at Minstagram setting page."
+msgstr "CLIENT IDをMinstagram設定ページで設定してください。"
+
+#: tags/0.0.2/widget/minstagram-widget-form-view.php:9
+#: trunk/widget/minstagram-widget-form-view.php:9
+#: widget/minstagram-widget-form-view.php:9
+msgid "Title"
+msgstr "タイトル"
+
+#: tags/0.0.2/widget/minstagram-widget-form-view.php:18
+#: trunk/widget/minstagram-widget-form-view.php:18
+#: widget/minstagram-widget-form-view.php:18
+msgid "User ID (Required)"
+msgstr "User ID(必須)"
+
+#: tags/0.0.2/widget/minstagram-widget-form-view.php:20
+#: trunk/widget/minstagram-widget-form-view.php:20
+#: widget/minstagram-widget-form-view.php:20
+msgid "User ID is required."
+msgstr "User IDは必須です。"
+
+#: tags/0.0.2/widget/minstagram-widget-form-view.php:31
+#: trunk/widget/minstagram-widget-form-view.php:31
+#: widget/minstagram-widget-form-view.php:31
+msgid "Tag (Required)"
+msgstr "タグ(必須)"
+
+#: tags/0.0.2/widget/minstagram-widget-form-view.php:33
+#: trunk/widget/minstagram-widget-form-view.php:33
+#: widget/minstagram-widget-form-view.php:33
+msgid "Tag is required."
+msgstr "タグは必須です。"
+
+#: tags/0.0.2/widget/minstagram-widget-form-view.php:43
+#: trunk/widget/minstagram-widget-form-view.php:43
+#: widget/minstagram-widget-form-view.php:43
+msgid "The number of display (Required)"
+msgstr "表示件数(必須)"
+
+#: tags/0.0.2/widget/minstagram-widget-form-view.php:45
+#: trunk/widget/minstagram-widget-form-view.php:45
+#: widget/minstagram-widget-form-view.php:45
+msgid "The number of display item is required."
+msgstr "表示件数は必須です。"
+
+#: tags/0.0.2/widget/minstagram-widget-view.php:22
+#: trunk/widget/minstagram-widget-view.php:22
+#: widget/minstagram-widget-view.php:22
+msgid "It could not be displayed correctly."
+msgstr "正しく表示できませんでした。"
